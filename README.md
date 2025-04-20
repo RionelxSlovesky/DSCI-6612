@@ -1,7 +1,5 @@
 # DSCI-6612
-Great! I’ll prepare a Python program that solves the 8-puzzle problem using Breadth-First Search (BFS), Uniform Cost Search (UCS), and A* (with Manhattan distance as the heuristic). The program will accept user input for the initial and goal states and output the steps to reach the solution for each algorithm.
 
-I’ll get back to you shortly with the complete implementation and comparison.
 
 # 8-Puzzle Solver with BFS, UCS, and A* (Manhattan Heuristic)
 
