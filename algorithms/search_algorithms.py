@@ -1,4 +1,4 @@
-from puzzle import Puzzle
+from utils.puzzle import Puzzle
 from queue import Queue, PriorityQueue
 from itertools import count
 

@@ -1,5 +1,6 @@
-from search_algorithms import astar
-from heuristics import manhattan_distance
+from algorithms.search_algorithms import astar
+from heuristics.heuristics import manhattan_distance
+from visualization.visualizer import PuzzleVisualizer
 
 if __name__ == "__main__":
     start = [[2, 8, 3],
@@ -17,5 +18,8 @@ if __name__ == "__main__":
             for row in state:
                 print(row)
             print()
+
+        visualizer = PuzzleVisualizer(path)
+        visualizer.show()
     else:
         print("No solution found.")
